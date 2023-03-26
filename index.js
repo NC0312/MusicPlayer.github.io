@@ -4,10 +4,10 @@ var mySong=document.getElementById('mySong');
         icon.onclick=function(){
             if(mySong.paused){
                 mySong.play();
-                icon.src="F:/CHITKARA SEM-5/Full Front End/Music Site/Images/pause.png";
+                icon.src="media/pause.png";
             }
             else{
                 mySong.pause();
-                icon.src="F:/CHITKARA SEM-5/Full Front End/Music Site/Images/play.png";
+                icon.src="media/play.png";
             }
         }
